@@ -1,16 +1,27 @@
-## Hi there 👋
+# Merhaba, ben Eren Dede 👋
 
-<!--
-**erendede30/erendede30** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Doğuş Üniversitesi Yönetim Bilişim Sistemleri (MIS)** öğrencisiyim. İlişkisel veri tabanı mimarisi, işlem güvenliği (ACID) ve Python tabanlı arka uç (backend) sistemleri geliştirme üzerine odaklanıyorum.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🛠 Teknoloji ve Araçlar
+
+* **Veri Tabanı:** PostgreSQL, PL/pgSQL (Triggers & Functions), İlişkisel Veri Modelleme (ER), Sorgu Optimizasyonu, JSONB
+* **Backend & Programlama:** Python, Flask, RESTful API, SQL, Pandas
+* **Frontend:** HTML5, CSS3, JavaScript
+* **Araçlar & Ortam:** Git, GitHub, PyCharm, Visual Studio Code, Linux
+
+---
+
+### 🚀 Öne Çıkan Proje
+
+#### [LedgerFlow — ACID-Compliant Double-Entry Wallet Engine](https://github.com/erendede30/ledgerflow-postgres)
+PostgreSQL ve Python (Flask) kullanılarak geliştirilmiş, çift taraflı muhasebe (double-entry bookkeeping) mantığına dayalı cüzdan ve para transfer motoru.
+* `CHECK (balance >= 0)` ve `ON DELETE RESTRICT` kısıtlamalarıyla veri tabanı katmanında finansal bütünlük.
+* Eşzamanlı işlemlerde yarış durumunu (race condition) ve kilitlenmeyi (deadlock) önleyen `SELECT ... FOR UPDATE` satır kilitleme algoritması.
+* Bakiye değişimlerini eski ve yeni değerleriyle kaydeden otomatik `PL/pgSQL` & `JSONB` denetim tetikleyicileri (audit triggers).
+
+---
+
+### 📫 İletişim
+* **GitHub:** [github.com/erendede30](https://github.com/erendede30)
